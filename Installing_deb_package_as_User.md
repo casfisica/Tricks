@@ -9,8 +9,8 @@ mkdir ~/local/lib
 mkdir ~/local/include
 dpkg-deb -x <filename.deb> dir/
 ```
-<par>And copy the libraries to lib, and the binaries to binn</par>
-<par>Then modify the .bashrc to use this binaries, adding this lines</par>
+<par>And copy the libraries to lib, and the binaries to bin</par>
+<par>Then modify the .bashrc or create a script to use this binaries, adding this lines</par>
 
 ```bash
 export PATH=$PATH:$HOME/local/bin
